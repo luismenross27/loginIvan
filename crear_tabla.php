@@ -1,11 +1,11 @@
 <?php
 // Datos de conexión a la base de datos PostgreSQL
-$driver = 'pgsql';
-$host = getenv('host');
-$port = getenv('port');
-$dbname = getenv('database');
-$user =   getenv('user');
-$password = getenv('password');
+        $driver = 'pgsql';
+        $host = getenv('host');
+        $port = getenv('port');
+        $dbname = getenv('database');
+        $user =   getenv('username');
+        $password = getenv('password');
 
 try {
     // Conexión a la base de datos
